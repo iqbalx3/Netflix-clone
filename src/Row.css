@@ -1,0 +1,42 @@
+.thanu{
+    background-color: red;
+    font-style: italic;
+}
+.row{
+    color: white;
+    margin-left: 20px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: medium;
+}
+.row_poster {
+    margin-right: 10px;
+     /* width: 100%;  */
+    max-height: 100px;
+    object-fit: contain;
+    transition: transform 450ms;
+    
+}
+.row_posters1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: auto; */
+   overflow-y: hidden; 
+    overflow-x: scroll;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+.row_posters12::-webkit-scrollbar {
+    display: none; 
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+.row_posterLarge:hover {
+    transform: scale(1.09);
+}
+.row{
+    margin-left: 20px;
+}
